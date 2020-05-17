@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <Search v-on:list-change="listdata = $event"></Search>
-    <Lists :listdata="listdata"></Lists>
+    <Search></Search>
+    <Lists></Lists>
   </div>
 </template>
 
@@ -16,11 +16,6 @@ export default {
     Lists,
     Search
   }
-  // methods: {
-  //   click(){
-  //   console.log(listdata);
-  //   }
-  // }
 }
 
 </script>

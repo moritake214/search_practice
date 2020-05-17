@@ -87,43 +87,18 @@
         },
       }
     },
-    computed: {
-      filteredTasks: function () {
-        var data ;
-        var countryFilter = this.countrySelect;
-        var recommendFilter = this.recommendSelect;
-        var priceFilter = this.priceSelect;
-        var filterWord = this.searchWord && this.searchWord.toLowerCase();
-        if(countryFilter || recommendFilter || priceFilter || filterWord) {
-          data = data.filter(function (row) {
-            // カテゴリー絞り込み
-            if (countryFilter) {
-                if (row['country'] !== countryFilter) {
-                    return false;
-                }                  
-            }
-            if (recommendFilter) {
-              if (row['recommend'] !== recommendFilter) {
-                return false;
-                }
-            }
-            if (priceFilter[0]) {
-                if (row['price'] !== priceFilter[0] && row['price'] !== priceFilter[1] && row['price'] !== priceFilter[2] ) {
-                    return false;
-                }
-            }
-            // キーワード絞り込み
-            // if (filterWord) {
-            //   return Object.keys(row).some(function (key) {
-            //       if (String(row[key]).toLowerCase().indexOf(filterWord) > -1) {
-            //           return true;
-            //       }
-            //   });
-            // }
-            return row;
-          })
-        }
-        return data
+    watch: {
+      countrySelect: function () {
+        // console.log(this.countrySelect)
+        this.$store.commit('changeListdata', this.countrySelect, this.recommendSelect, this.priceSelect )
+      },
+      recommendSelect: function () {
+        // console.log(this.recommendSelect)
+        this.$store.commit('changeListdata', this.countrySelect, this.recommendSelect, this.priceSelect )
+      },
+      priceSelect: function () {
+        // console.log(this.priceSelect);
+        this.$store.commit('changeListdata', this.countrySelect, this.recommendSelect, this.priceSelect )
       }
     }
     // methods: {
