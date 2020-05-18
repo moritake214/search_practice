@@ -90,15 +90,27 @@
     watch: {
       countrySelect: function () {
         // console.log(this.countrySelect)
-        this.$store.commit('changeListdata', this.countrySelect, this.recommendSelect, this.priceSelect )
+        this.$store.commit('changeListdata', {
+          countrySelect : this.countrySelect,
+          recommendSelect : this.recommendSelect,
+          priceSelect : this.priceSelect 
+        })
       },
       recommendSelect: function () {
         // console.log(this.recommendSelect)
-        this.$store.commit('changeListdata', this.countrySelect, this.recommendSelect, this.priceSelect )
+        this.$store.commit('changeListdata', {
+          countrySelect : this.countrySelect,
+          recommendSelect : this.recommendSelect,
+          priceSelect : this.priceSelect 
+        })
       },
       priceSelect: function () {
         // console.log(this.priceSelect);
-        this.$store.commit('changeListdata', this.countrySelect, this.recommendSelect, this.priceSelect )
+        this.$store.commit('changeListdata', {
+          countrySelect : this.countrySelect,
+          recommendSelect : this.recommendSelect,
+          priceSelect : this.priceSelect 
+        })
       }
     }
     // methods: {

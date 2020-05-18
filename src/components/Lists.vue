@@ -1,7 +1,6 @@
 <template>
   <div id="lists">  
     <ul>
-      <!-- <p>{{listdata}}</p> -->
       <li v-for="list in listdata" :key = list.id>
         <img :src="list.img" alt="">
         <p>{{list.country}}</p>
