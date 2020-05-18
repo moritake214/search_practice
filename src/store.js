@@ -302,9 +302,6 @@ export default new Vuex.Store({
       }
     ]
   },
-  getters: {
-    initialList: state => state.listdata
-  },
   mutations: {
     changeListdata(state, filter){
       var data = [
