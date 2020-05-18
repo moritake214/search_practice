@@ -4,342 +4,342 @@
   "country": "australia", 
   "recommend": "☆", 
   "price": "☆☆", 
-  "img": "/image/australia1.jpeg"
+  "img": "./image/australia1.jpeg"
   },
   {
   "id": 2, 
   "country": "australia", 
   "recommend": "☆☆☆",
   "price": "☆☆", 
-  "img": "/image/australia2.jpeg"
+  "img": "./image/australia2.jpeg"
   },
   {
   "id": 3, 
   "country": "australia", 
   "recommend": "☆☆",
   "price": "☆☆☆", 
-  "img": "/image/australia3.jpeg"
+  "img": "./image/australia3.jpeg"
   },
   {
   "id": 4, 
   "country": "bolibia", 
   "recommend": "☆☆",
   "price": "☆☆", 
-  "img": "/image/bolibia1.jpeg"
+  "img": "./image/bolibia1.jpeg"
   },
   {
   "id": 5, 
   "country": "brazil", 
   "recommend": "☆☆☆",
   "price": "☆", 
-  "img": "/image/brazil1.jpeg"
+  "img": "./image/brazil1.jpeg"
   },
   {
   "id": 6, 
   "country": "brazil", 
   "recommend": "☆☆",
   "price": "☆☆☆", 
-  "img": "/image/brazil2.jpeg"
+  "img": "./image/brazil2.jpeg"
   },
   {
   "id": 7, 
   "country": "brazil", 
   "recommend": "☆",
   "price": "☆☆☆", 
-  "img": "/image/brazil3.jpeg"
+  "img": "./image/brazil3.jpeg"
   },
   {
   "id": 8, 
   "country": "cambodia", 
   "recommend": "☆",
   "price": "☆☆", 
-  "img": "/image/cambodia1.jpeg"
+  "img": "./image/cambodia1.jpeg"
   },
   {
   "id": 9, 
   "country": "china", 
   "recommend": "☆",
   "price": "☆", 
-  "img": "/image/china1.jpeg"
+  "img": "./image/china1.jpeg"
   },
   {
   "id": 10, 
   "country": "china", 
   "recommend": "☆☆",
   "price": "☆☆", 
-  "img": "/image/china2.jpeg"
+  "img": "./image/china2.jpeg"
   },
   {
   "id": 11, 
   "country": "denmark", 
   "recommend": "☆☆",
   "price": "☆☆☆", 
-  "img": "/image/denmark1.jpeg"
+  "img": "./image/denmark1.jpeg"
   },
   {
   "id": 12, 
   "country": "ecuador", 
   "recommend": "☆☆☆",
   "price": "☆☆☆", 
-  "img": "/image/ecuador1.jpeg"
+  "img": "./image/ecuador1.jpeg"
   },
   {
   "id": 13, 
   "country": "egypt", 
   "recommend": "☆☆☆",
   "price": "☆", 
-  "img": "/image/egypt1.jpeg"
+  "img": "./image/egypt1.jpeg"
   },
   {
   "id": 14, 
   "country": "england", 
   "recommend": "☆☆",
   "price": "☆☆", 
-  "img": "/image/england1.jpeg"
+  "img": "./image/england1.jpeg"
   },
   {
   "id": 15, 
   "country": "england", 
   "recommend": "☆",
   "price": "☆", 
-  "img": "/image/england2.jpeg"
+  "img": "./image/england2.jpeg"
   },
   {
   "id": 16, 
   "country": "frace", 
   "recommend": "☆",
   "price": "☆☆", 
-  "img": "/image/france1.jpeg"
+  "img": "./image/france1.jpeg"
   },
   {
   "id": 17, 
   "country": "frace", 
   "recommend": "☆☆",
   "price": "☆☆☆", 
-  "img": "/image/france2.jpeg"
+  "img": "./image/france2.jpeg"
   },
   {
   "id": 18, 
   "country": "germany", 
   "recommend": "☆☆☆",
   "price": "☆", 
-  "img": "/image/germany1.jpeg"
+  "img": "./image/germany1.jpeg"
   },
   {
   "id": 19, 
   "country": "indonesia", 
   "recommend": "☆☆",
   "price": "☆☆", 
-  "img": "/image/indonesia1.jpeg"
+  "img": "./image/indonesia1.jpeg"
   },
   {
   "id": 20, 
   "country": "indonesia", 
   "recommend": "☆☆☆",
   "price": "☆☆☆", 
-  "img": "/image/indonesia2.jpeg"
+  "img": "./image/indonesia2.jpeg"
   },
   {
   "id": 21, 
   "country": "indonesia", 
   "recommend": "☆",
   "price": "☆☆", 
-  "img": "/image/indonesia3.jpeg"
+  "img": "./image/indonesia3.jpeg"
   },
   {
   "id": 22, 
   "country": "greace", 
   "recommend": "☆☆☆",
   "price": "☆", 
-  "img": "/image/greace1.jpeg"
+  "img": "./image/greace1.jpeg"
   },
   {
   "id": 23, 
   "country": "iran", 
   "recommend": "☆☆☆",
   "price": "☆☆", 
-  "img": "/image/iran1.jpeg"
+  "img": "./image/iran1.jpeg"
   },
   {
   "id": 24, 
   "country": "ireland", 
   "recommend": "☆☆☆",
   "price": "☆☆☆", 
-  "img": "/image/ireland1.jpeg"
+  "img": "./image/ireland1.jpeg"
   },
   {
   "id": 25, 
   "country": "italy", 
   "recommend": "☆",
   "price": "☆☆☆", 
-  "img": "/image/italy1.jpeg"
+  "img": "./image/italy1.jpeg"
   },
   {
   "id": 26, 
   "country": "japan", 
   "recommend": "☆",
   "price": "☆☆☆", 
-  "img": "/image/japan1.jpeg"
+  "img": "./image/japan1.jpeg"
   },
   {
   "id": 27, 
   "country": "japan", 
   "recommend": "☆☆☆",
   "price": "☆☆☆", 
-  "img": "/image/japan2.jpeg"
+  "img": "./image/japan2.jpeg"
   },
   {
   "id": 28, 
   "country": "kazakhstan", 
   "recommend": "☆",
   "price": "☆", 
-  "img": "/image/kazakhstan1.jpeg"
+  "img": "./image/kazakhstan1.jpeg"
   },
   {
   "id": 29, 
   "country": "kyrgyzstan", 
   "recommend": "☆☆",
   "price": "☆☆", 
-  "img": "/image/kyrgyzstan1.jpeg"
+  "img": "./image/kyrgyzstan1.jpeg"
   },
   {
   "id": 30, 
   "country": "laos", 
   "recommend": "☆☆☆",
   "price": "☆", 
-  "img": "/image/laos1.jpeg"
+  "img": "./image/laos1.jpeg"
   },
   {
   "id": 31, 
   "country": "latvia", 
   "recommend": "☆☆",
   "price": "☆☆", 
-  "img": "/image/latvia1.jpeg"
+  "img": "./image/latvia1.jpeg"
   },
   {
   "id": 32, 
   "country": "mexico", 
   "recommend": "☆☆",
   "price": "☆☆☆", 
-  "img": "/image/mexico1.jpeg"
+  "img": "./image/mexico1.jpeg"
   },
   {
   "id": 33, 
   "country": "morocco", 
   "recommend": "☆",
   "price": "☆", 
-  "img": "/image/morocco1.jpeg"
+  "img": "./image/morocco1.jpeg"
   },
   {
   "id": 34, 
   "country": "peru", 
   "recommend": "☆☆",
   "price": "☆☆☆", 
-  "img": "/image/peru1.jpeg"
+  "img": "./image/peru1.jpeg"
   },
   {
   "id": 35, 
   "country": "peru", 
   "recommend": "☆",
   "price": "☆", 
-  "img": "/image/peru2.jpeg"
+  "img": "./image/peru2.jpeg"
   },
   {
   "id": 36, 
   "country": "singapor", 
   "recommend": "☆☆☆",
   "price": "☆", 
-  "img": "/image/singapor1.jpeg"
+  "img": "./image/singapor1.jpeg"
   },
   {
   "id": 37, 
   "country": "singapor", 
   "recommend": "☆☆",
   "price": "☆☆☆", 
-  "img": "/image/singapor2.jpeg"
+  "img": "./image/singapor2.jpeg"
   },
   {
   "id": 38, 
   "country": "singapor", 
   "recommend": "☆☆",
   "price": "☆☆", 
-  "img": "/image/singapor3.jpeg"
+  "img": "./image/singapor3.jpeg"
   },
   {
   "id": 39, 
   "country": "spain", 
   "recommend": "☆☆",
   "price": "☆☆", 
-  "img": "/image/spain1.jpeg"
+  "img": "./image/spain1.jpeg"
   },
   {
   "id": 40, 
   "country": "spain", 
   "recommend": "☆",
   "price": "☆☆", 
-  "img": "/image/spain2.jpeg"
+  "img": "./image/spain2.jpeg"
   },
   {
   "id": 41, 
   "country": "taiwan", 
   "recommend": "☆☆",
   "price": "☆☆", 
-  "img": "/image/taiwan1.jpeg"
+  "img": "./image/taiwan1.jpeg"
   },
   {
   "id": 42, 
   "country": "taiwan", 
   "recommend": "☆☆",
   "price": "☆", 
-  "img": "/image/taiwan2.jpeg"
+  "img": "./image/taiwan2.jpeg"
   },
   {
   "id": 43, 
   "country": "thailand", 
   "recommend": "☆☆",
   "price": "☆", 
-  "img": "/image/thailand1.jpeg"
+  "img": "./image/thailand1.jpeg"
   },
   {
   "id": 44, 
   "country": "thailand", 
   "recommend": "☆☆☆",
   "price": "☆", 
-  "img": "/image/thailand2.jpeg"
+  "img": "./image/thailand2.jpeg"
   },
   {
   "id": 45, 
   "country": "turkey", 
   "recommend": "☆☆",
   "price": "☆☆☆", 
-  "img": "/image/turkey1.jpeg"
+  "img": "./image/turkey1.jpeg"
   },
   {
   "id": 46, 
   "country": "turkmenistan", 
   "recommend": "☆☆",
   "price": "☆", 
-  "img": "/image/turkmenistan1.jpeg"
+  "img": "./image/turkmenistan1.jpeg"
   },
   {
   "id": 47, 
   "country": "uzbekistan", 
   "recommend": "☆☆☆",
   "price": "☆", 
-  "img": "/image/uzbekistan1.jpeg"
+  "img": "./image/uzbekistan1.jpeg"
   },
   {
   "id": 48, 
   "country": "uzbekistan", 
   "recommend": "☆☆",
   "price": "☆☆", 
-  "img": "/image/uzbekistan2.jpeg"
+  "img": "./image/uzbekistan2.jpeg"
   },
   {
   "id": 49, 
   "country": "vietnum", 
   "recommend": "☆☆",
   "price": "☆", 
-  "img": "/image/vietnum1.jpeg"
+  "img": "./image/vietnum1.jpeg"
   }
 ]
