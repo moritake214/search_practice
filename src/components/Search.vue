@@ -11,13 +11,7 @@
       <option v-for="(value,key) in recommend" :key="key">
           {{ value }}
       </option>
-    </select>    
-    <!-- <select v-model="priceSelect">
-      <option value="">物価</option>
-      <option v-for="(value,key) in price" :key="key">
-          {{ value }}
-      </option>
-    </select>     -->
+    </select>
     <div v-for="(value, i) in price" :key="i" class="sorts-item">
       <input 
         type="checkbox" 
@@ -26,10 +20,11 @@
         v-model="priceSelect"
       >
       <label for="'vale' + i">物価{{value}}</label>
-    </div>
+    </div> 
     <div class="sorts-item">
-      <input type="text" placeholder="キーワード検索" :value="searchWord">
+      <input type="text" placeholder="キーワード検索" v-model="searchWord">
     </div>
+    <!-- <div @click="click">check</div> -->
   </div>
 </template>
 
@@ -111,11 +106,20 @@
           recommendSelect : this.recommendSelect,
           priceSelect : this.priceSelect 
         })
+      },
+      searchWord: function () {
+        // console.log(this.priceSelect);
+        this.$store.commit('changeListdata', {
+          countrySelect : this.countrySelect,
+          recommendSelect : this.recommendSelect,
+          priceSelect : this.priceSelect,
+          searchWord : this.searchWord,
+        })
       }
     }
     // methods: {
     //   click(){
-    //   console.log(filteredTasks);
+    //   console.log(this.searchWord);
     //   }
     // }
   }
