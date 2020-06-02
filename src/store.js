@@ -12,7 +12,6 @@ export default new Vuex.Store({
     changeListdata(state, filter){
       var data = listdata
       if(filter.countrySelect || filter.recommendSelect || filter.priceSelect || filter.searchWord) {
-        // console.log(data);
         data = data.filter(function (row) {
           // カテゴリー絞り込み
           if (filter.countrySelect) {
@@ -42,7 +41,6 @@ export default new Vuex.Store({
           return row;
         })
       }
-      console.log(data);
       state.listdata = data
     }
   }

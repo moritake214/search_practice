@@ -68,7 +68,7 @@
           29:'turkey',
           30:'turkmenistan',
           31:'uzbekistan',
-          32:'ivietnumran'
+          32:'vietnum'
         },
         recommend: {
           1:'☆',

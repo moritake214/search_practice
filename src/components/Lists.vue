@@ -1,24 +1,79 @@
 <template>
   <div id="lists">  
     <ul>
-      <li v-for="list in listdata" :key = list.id>
+      <li v-for="(list, i) in filterItems" :key = i>
         <img :src="list.img" alt="">
         <p>{{list.country}}</p>
         <p>オススメ度{{list.recommend}}</p>
         <p>物価{{list.price}}</p>
+        <!-- <p>{{listlist}}</p> -->
       </li>         
     </ul>
+    <prev-next :page="createList.page" :totalPage="createList.totalPage" @change="onPageChange" />
   </div>
 </template>
 
 <script>
-export default {
-  computed: {
-    listdata() {
-      return this.$store.state.listdata
+  import PrevNext from './pagenation/prev-next.vue';
+  export default {
+    components: {
+      PrevNext
+    },
+    // data() {
+    //   const listlist = this.createList;
+    //   return listlist.lists
+    // },
+    computed: {
+      createList() {
+        const lists = this.$store.state.listdata;
+        const perPage = 10;
+        return {
+          lists,
+          page: 1,
+          perPage,
+          totalPage: Math.ceil(lists.length / perPage),
+          count: lists.length
+        }
+      },
+      // watch: {
+      //   createList: function() {
+      //     console.log('uuu');
+      //   }
+      // },
+      filterItems: {
+        get: function() {
+          console.log(this.createList.page + 100);
+          return this.createList.lists.slice((this.createList.page - 1) * this.createList.perPage, this.createList.page * this.createList.perPage);
+        },
+        set: function(page) {
+          this.createList.page = page;
+          console.log(this.createList.page + 10);
+          // this.filterItems = this.createList.lists.slice((page - 1) * this.createList.perPage, page * this.createList.perPage);
+        } 
+      }
+      // filterItems() {
+      //   return this.createList.lists.filter(
+      //     (item, i) =>
+      //       i >= (this.createList.page - 1) * this.createList.perPage &&
+      //       i < this.createList.page * this.createList.perPage
+      //   );
+      // }
+    },
+    methods: {
+      onPageChange(page) {
+        console.log(this.filterItems.set);
+        this.filterItems = page;
+
+        // this.$set(this.createList.page, page, "$setで変更済み");
+        // this.fruits.splice(index, 1, "spliceで変更済み");
+        window.history.replaceState(
+          { page },
+          `Page${page}`,
+          `${window.location.origin}/?page=${page}`
+        );
+      }
     }
   }
-}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
